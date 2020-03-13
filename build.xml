@@ -18,7 +18,7 @@
 	<property name="compilerArg" value=""/>
 	<property name="compilation.prereq.log" value="${buildDirectory}/prereqErrors.log"/>
 	<property name="javacSource" value="7"/>
-	<property name="javacTarget" value="1.6"/>
+	<property name="javacTarget" value="1.7"/>
 	<condition property="dir_bootclasspath" value="${java.home}/../Classes">
 		<and>
 			<os family="mac"/>
