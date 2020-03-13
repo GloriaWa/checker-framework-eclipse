@@ -2,4 +2,4 @@ os: linux
 dist: bionic
 
 language: java
-source: ant build
+script: ant build
