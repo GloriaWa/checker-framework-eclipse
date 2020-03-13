@@ -17,7 +17,7 @@
 	<property name="logExtension" value=".log"/>
 	<property name="compilerArg" value=""/>
 	<property name="compilation.prereq.log" value="${buildDirectory}/prereqErrors.log"/>
-	<property name="javacSource" value="6"/>
+	<property name="javacSource" value="7"/>
 	<property name="javacTarget" value="1.6"/>
 	<condition property="dir_bootclasspath" value="${java.home}/../Classes">
 		<and>
